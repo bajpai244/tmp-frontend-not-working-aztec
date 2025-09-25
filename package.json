@@ -1,0 +1,20 @@
+{
+  "name": "web-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies":  {
+    "@aztec/accounts": "^2.0.3",
+    "@aztec/aztec.js": "^2.0.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.7",
+    "vite-plugin-node-polyfills": "^0.24.0"
+  }
+}
